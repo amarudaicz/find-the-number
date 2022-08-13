@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.contenedor-main{
+    width: 100vw; height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.contenedor{
+    width: 500px;
+    height:800px
+
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+h1{
+    margin: 3rem 0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5rem;
+}
+
+h2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+
+}
+
+.contenido-titles{
+    text-align: center;
+}
+
+.contenedor-input{
+    width: 100%; height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+
+}
+.contenido{
+    width: auto;
+}
+
+.contenido span{
+    display: block;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    font-family:'Press Start 2P' ;
+}
+
+.input-number{
+    width: 10rem; height: 10rem;
+    padding: 1rem;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.contenido-buttons{
+    height: 100px; height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.btn{
+    width: 30rem;
+    height: 4rem;
+    background: linear-gradient(to bottom, rgb(90, 237, 141), rgb(51, 178, 210));
+    border: none;
+    font-family: 'Press Start 2P', cursive;;
+    border-radius: 2.5rem;
+}
+
+.contenedor-alerts{
+    width: 100%;
+    margin: 4rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.contenedor-alerts i{
+    font-size: 3rem;
+    transition: all 1s;
+}
+
+.alert{
+    font-size: 3rem;
+    font-family: 'Press Start 2P', 'Times New Roman', Times, serif;
+    transition: all 1s;
+}
+
+.correcto{
+    transform: scale(1.1);
+    color: rgb(83, 254, 83);
+}
+
+.fa-circle-check{
+    color: rgb(83, 254, 83);
+}
+
+.muy-alto{
+    color: red;
+}
+
+.fa-circle-arrow-down{
+    color: red;
+   
+}
+
+.muy-bajo{
+    color: rgb(210, 210, 46);
+}
+
+.fa-circle-arrow-up{
+    color: rgb(210, 210, 46);
+}
+
+
